@@ -9,9 +9,5 @@ public class Passaro extends Animal {
     }
 
     @Override
-    public double calcularPrecoBase() {
-        double precoBase = 0;
-        precoBase = 30;
-        return calcularPrecoBase();
-    }
+    public double calcularPrecoBase() { return 30; }
 }

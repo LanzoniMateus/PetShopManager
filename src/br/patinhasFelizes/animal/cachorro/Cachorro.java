@@ -10,15 +10,12 @@ public class Cachorro extends Animal {
 
     @Override
     public double calcularPrecoBase() {
-        double precoBase = 0;
         if (getPeso() <= 10) {
-            precoBase = 40;
+            return  40;
         } else if (getPeso() <= 25) {
-            precoBase = 60;
+            return 60;
         } else {
-            precoBase = 85;
+            return  85;
         }
-
-        return calcularPrecoBase();
     }
 }
